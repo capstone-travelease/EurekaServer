@@ -2,7 +2,7 @@ version: "3.3"
 services:
   login:
     container_name: eureka-server
-    image: coderbillzay/eureka-server
+    image: ngoctienwork2002/eureka-server
     ports:
       - '8761:8761'
     volumes:
